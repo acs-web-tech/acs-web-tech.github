@@ -16,7 +16,7 @@ compatibility on navigator.mediaDevices.getDisplayMedia() function
 compatibility on Promises \
 ![browser-compatabilty-promise](https://user-images.githubusercontent.com/95969896/175829236-46588f5c-af69-4114-8f0b-200fc9195801.PNG)
 
-If the browser doesn't supports any one of the functionality you may experience a bad work flow, try to update or switch your browser
+If the browser doesn't supports any one of the functionality you may experience a bad work flow, try to update your browser
 
 # Let's see about how to use this application!
 Initially it will prompt to select the portion that should be captured
@@ -49,5 +49,6 @@ it can be done through by clicking the install icon present in the address bar a
 4) Try to run this through https://acs-web-tech.github.io/index.html
 5) if you are using it locally please use it in an origin which supports http protocol
 6) Your browser must have support for service worker in order cache the files needed for this application
+7) This application works fine with chrome browser 
 
 Thank you for using this application drawbacks and bugs which are found in the application will be fixed soon 
