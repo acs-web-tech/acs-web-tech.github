@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SCREEN RECORDER</title>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0"/>
+<link rel="stylesheet" href="style.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:wght@300&family=Lobster&family=Nunito:wght@300&family=Open+Sans&family=Patrick+Hand&family=Roboto:wght@300;400&display=swap" 
+rel="stylesheet">
+<link rel="manifest" href="serviceworker.webmanifest"/>
+</head>
+<body>
+<div class="confirmation">
+<p class="instruction">
+You will be Promted to select which part of the screen should be recorded such like
+</p>
+<ul class="options">
+   <li> Recording your entire window</li>
+   <li> Recording a specific tab</li>
+   <li>Recording windows opened by you</li>
+   </ul>
+<div class="auth-btn">
+
+<button id="acceptNotRemind">Don't ask me again</button>
+</div>
+</div>
+<aside class="record-screen">
+   <div class="screen">
+   <video id="vid-inp" autoplay><source src="" type="video/mp4"/></video>
+   <video id="vid-dur" autoplay><source src="" type="video/mp4"/></video>
+   </div>
+</aside>
+<aside class="recordings">
+<div class="heading">
+<h1>Recordings</h1>
+</div>
+<div class="ini-rec">
+<div class="ini-btn">
+&plus;
+
+</div>
+<div class="duration">
+   00:00:00
+</div>
+<div class="stop-btn">
+   <button class="btn-source">Stop</button>
+</div>
+</div>
+<div class="list-rec">
+<div class="uniq-video">
+<div class="src-video">
+ <video controls >
+ <source src="20220625_083106.mp4" type="video/mp4"/>
+ </video>
+</div>
+<div class="file-name">
+<h4>Recording a video</h4>
+<div class="video-attr">
+<h6>Date/Time of capture :</h6>
+</div>
+</div>
+
+</div>
+<div class="uniq-video">
+<div class="src-video">
+ <video controls >
+ <source src="20220625_083616.mp4" type="video/mp4"/>
+ </video>
+</div>
+<div class="file-name">
+<h4>How to Install the app?</h4>
+<div class="video-attr">
+<h6>Date/Time of capture :</h6>
+</div>
+</div>
+
+</div>
+<!-- <div class="uniq-video">
+<div class="src-video">
+ <video>
+ <source src="" type="video/mp4"/>
+ </video>
+</div>
+<div class="file-name">
+<h4> Acs.mp4</h4>
+<div class="video-attr">
+<h6>Date/Time of capture :</h6>
+</div>
+</div>
+
+</div> -->
+
+</div>
+
+</aside>
+<a class="cd" href="" download="acs.mp4"></a>
+<script src="script.js"></script>
+
+</body>
+</html>

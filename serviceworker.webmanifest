@@ -1,0 +1,13 @@
+{
+    "name":"ARUN'S VIDEO RECORDER",
+    "short_name":"ACS",
+    "icons":[
+        {"src":"/mypic.png","type":"image/png","purporse":"maskable","sizes":"512X512"},
+        {"src":"/mypic.png","type":"image/png","purporse":"any","sizes":"144X144"}
+    ],
+    "theme_color":"green",
+    "background_color":"green",
+    "display":"fullscreen",
+    "start_url":"/index.html"
+
+}

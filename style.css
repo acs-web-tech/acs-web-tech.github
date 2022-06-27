@@ -1,0 +1,158 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+html,body{
+	width:100%  !important;
+	height:100% !important;
+	font-family: 'Bebas Neue', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Roboto', sans-serif;
+overflow:hidden;
+}
+.record-screen{
+	width:50%;
+	height:100%;
+	display:flex;
+	align-items:center;
+	margin-left:5%;
+	float:left;
+}
+
+.screen{
+	width:100%;
+	height:100%;
+}
+video{
+	width:inherit;
+	height:inherit;
+}
+.recordings{
+    width:30%;
+	height:80%;
+	float:left;
+	text-align:center;
+	margin:5% 5%;
+	overflow-x:hidden;
+}
+.list-rec{
+	background-color:#dfe2e6;
+	width:100%;
+	height:100%;
+	padding:2px;
+	margin-top:15%;
+}
+.heading{
+	width:inherit;
+	height:10%;
+	line-height:50px;
+	box-shadow: 2px 2px 30px 5px #b1b3b5;
+    position:fixed;
+	background:white;
+}
+.uniq-video{
+
+	display:flex;
+	text-align:center;
+	 margin:20px 0px 0px 20px;
+}
+.uniq-video>.file-name>h4:first-letter,.video-attr{
+	margin-left:20px;
+	line-height:50px;
+}
+.src-video{
+	width:130px;
+	height:80px;
+	background:black;
+   
+}
+.ini-rec{
+	width:inherit;
+	height:10%;
+	position:fixed;
+	top:80%;
+    background:white;
+	font-size:1.8rem;
+	line-height:45px;
+	box-shadow: 2px 2px 30px 5px #b1b3b5;
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.ini-btn{
+	width:50px;
+	height:50px;
+	 border:4px solid #125fdb;
+	 border-radius:150px;
+	 cursor:pointer;
+	 float:left;
+}
+.confirmation{
+	width:40%;
+	height:40%;
+	position:fixed;
+    left:0;
+	right:0;
+	top:50%;
+	margin:auto;
+	background:white;
+	z-index:5;
+	font-weight:bold;
+	padding:20px;
+	border-radius:10px;
+	box-shadow:inset 2px 2px 100px 5px #cdcfd1;
+    display:none;
+}
+.confirmation>ul{
+	margin-top: 20px;
+	margin-left: 30px;
+	line-height:30px;
+}
+.auth-btn{
+	
+    letter-spacing:20px;
+	margin-left: 30px;
+
+}
+.auth-btn>button{
+	width:150px;
+	height:30px;
+	border:none;
+	background-color:#12db22;
+	font-weight:bolder;
+	color:white;
+	padding:2px;
+	cursor:pointer;
+}
+
+.duration::after{
+	content:"";
+	clear: left;
+}
+.vid-dur{
+	display:none;
+}
+.btn-source{
+	width:60px;
+	height:20px;
+	background-color: #10f856;
+	border:none;
+	border-radius: 50px;
+	color:white;
+}
+
+@media  screen and (max-width:700px) {
+	.recordings{
+		width:50%;
+	}
+	.record-screen{
+         margin:0 auto;
+				
+	}
+	
+}
