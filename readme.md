@@ -46,5 +46,7 @@ it can be done through by clicking the install icon present in the address bar a
 1) This application needs internet for your first visit after that you can use it without the internet with the help of the browser are with application added to your destop screen
 2) All permission asked by the application must be granted before using 
 3) Don't try to reduce the screen size below 1300X700 resolution it may break the layout 
+4) Try to run this through https://acs-web-tech.github.io/index.html
+5) if you are using it locally please use it in an origin which supports http protocol
 
 Thank you for using this application drawbacks and bugs which are found in the application will be fixed soon 
