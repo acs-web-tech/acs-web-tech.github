@@ -48,5 +48,6 @@ it can be done through by clicking the install icon present in the address bar a
 3) Don't try to reduce the screen size below 1300X700 resolution it may break the layout 
 4) Try to run this through https://acs-web-tech.github.io/index.html
 5) if you are using it locally please use it in an origin which supports http protocol
+6) Your browser must have support for service worker in order cache the files needed for this application
 
 Thank you for using this application drawbacks and bugs which are found in the application will be fixed soon 
