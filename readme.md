@@ -35,7 +35,7 @@ select the portion that should be recorded and click share
 you can start the recording with the plus icon and you can stop it with the stop button . but there is no option to pause the recording but It will be released in the next update
 
 
-## Adding the screen recorder to the home
+## Adding the screen recorder to the Desktop screen
 \
 ![addhome](https://user-images.githubusercontent.com/95969896/175830096-0df27f08-7a66-45be-818e-f1b53af12d4e.PNG)
 \
