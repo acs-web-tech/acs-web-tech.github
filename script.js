@@ -65,7 +65,7 @@ document.oncontextmenu = (e)=>{
 	   media.ondataavailable=(e)=>{
 		   data.push(e.data)
 		
-		   let blob = new Blob(data,{type:"video/mp4"})
+		   let blob = new Blob(data,{type:"video/webm"})
 		   let url = URL.createObjectURL(blob)
 		   document.querySelector(".cd").href=url
 		   document.querySelector(".cd").click()
