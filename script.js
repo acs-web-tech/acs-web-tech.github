@@ -42,7 +42,7 @@ document.oncontextmenu = (e)=>{
 		  
 	   let streamComplie = new MediaStream([...evid.getTracks(),...eaud.getTracks()])
 	 
-	   let media = new MediaRecorder(streamComplie,{mimeType:"video/webm; codecs=vp8, vorbis")
+	   let media = new MediaRecorder(streamComplie,{mimeType:"video/webm; codecs=vp8, vorbis"})
 	   media.start()
 	 
 	   media.onstart= (e)=>{
