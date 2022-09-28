@@ -24,7 +24,7 @@ document.oncontextmenu = (e)=>{
 	e.preventDefault()
 }
  async function recordStream(srcvid){
-	let source  =await navigator.mediaDevices.getDisplayMedia({video:true,audio:true})
+	let source  =await navigator.mediaDevices.getDisplayMedia({video:true,audio:true})||navigator.getUserMedia({video:true,audio:true}) || navigator.webkitGetUserMedia({video:true,audio:true}) || navigator.mozGetUserMedia({video:true,audio:true}) || navigator.msGetUserMedia({video:true,audio:true});
 	video_duration.srcObject = source
 	return source
 }
